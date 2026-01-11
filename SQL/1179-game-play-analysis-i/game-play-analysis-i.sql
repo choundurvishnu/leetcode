@@ -8,9 +8,10 @@ SELECT
 FROM ranked
 WHERE rn = 1;
 
-#
-#SELECT
-#    player_id,
-#    min(event_date) AS first_login
-#FROM Activity
-#group by player_id;
+/*
+SELECT
+    player_id,
+    min(event_date) AS first_login
+FROM Activity
+group by player_id;
+*/
