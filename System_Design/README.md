@@ -7,7 +7,7 @@ Click on any book title below to navigate to its corresponding folder or file.
 
 ## 📖 Book List
 
-- 📘 **[Designing Data-Intensive Applications — Martin Kleppmann](./Designing-Data-Intensive-Applications/)**
+- 📘 **[Designing Data-Intensive Applications — Martin Kleppmann](./Book-2Designing-data-intensive-applications.pdf/)**
   
 - 📘 **[Fundamentals of Data Engineering — Joe Reis & Matt Housley](./Fundamentals-of-Data-Engineering/)**
   
