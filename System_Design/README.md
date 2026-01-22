@@ -19,7 +19,7 @@ Click on any book title below to navigate to its corresponding folder or file.
   
 - 📘 **[System Design Interview – An Insider’s Guide (Volume 2) — Alex Xu](https://drive.google.com/file/d/1tDX1G20ekQfCLm_r2H7pUgUt4fsNGt1k/view?usp=drive_link)**
   
-- 📘 **[Data Pipelines with Apache Airflow — Harenslak & de Ruiter](./[Data-Pipelines-with-Apache-Airflow](https://drive.google.com/file/d/1W-8jjvz5WfxqrWdLhW9rxg_9lYZrj0oT/view?usp=drive_link)**
+- 📘 **[Data Pipelines with Apache Airflow — Harenslak & de Ruiter](https://drive.google.com/file/d/1W-8jjvz5WfxqrWdLhW9rxg_9lYZrj0oT/view?usp=drive_link)**
 
 ---
 
