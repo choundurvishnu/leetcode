@@ -12,10 +12,5 @@ class Solution:
             helper(nums,i+1,subset)
             subset.pop()
         helper(nums,0,[])
-
-
-
-
-
         return result
         
