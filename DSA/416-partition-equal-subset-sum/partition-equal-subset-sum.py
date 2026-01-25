@@ -5,6 +5,22 @@ class Solution:
         if sum_num%2!= 0 :
             return False
         target = sum_num//2
+        dp = [False] * (target+1)
+        dp[0] = True
+        for num in nums:
+            for j in range(target,num-1,-1):
+                dp[j] = dp[j] or dp[j-num]
+        return dp[target]
+
+
+
+
+        """
+        n = len(nums)
+        sum_num = sum(nums)
+        if sum_num%2!= 0 :
+            return False
+        target = sum_num//2
         prev = [False]*(target+1)
         curr = [False]*(target+1)
         prev[0] = True
@@ -15,6 +31,7 @@ class Solution:
                 if nums[i-1] <= j:
                     curr[j] = prev[j] or prev[j-nums[i-1]]
                 else:
-                    curr[j] = curr[j] or prev[j]
+                    curr[j] = prev[j]
             prev = curr[:]
-        return curr[target]       
+        return curr[target] 
+        """      
