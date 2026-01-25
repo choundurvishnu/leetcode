@@ -1,8 +1,21 @@
 class Solution:
     def fib(self, n: int) -> int:
 
+        # ---- Space Optimized------
+        if n<=1:
+            return n
+        prev = 0
+        curr = 1
+        counter = 1
+        while counter < n:
+            next = prev + curr
+            counter += 1
+            prev = curr
+            curr = next
+        return curr
 
 
+        """
         #--------Tabulation / Botton Up--------
         dp = [0]*(n+1)
 
@@ -13,8 +26,8 @@ class Solution:
         while(count<n):
             count+=1
             dp[count] = dp[count-1]+dp[count-2]
-        
         return dp[n]
+        """
 
 
 
