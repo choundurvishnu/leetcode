@@ -1,6 +1,6 @@
 class Solution:
     def fib(self, n: int) -> int:
-
+        """
         # ---- Space Optimized------
         if n<=1:
             return n
@@ -27,6 +27,7 @@ class Solution:
             count+=1
             dp[count] = dp[count-1]+dp[count-2]
         return dp[n]
+        """
         """
 
 
